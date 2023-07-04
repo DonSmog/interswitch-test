@@ -9,7 +9,7 @@ export const StarShips = () => {
   const [url, setUrl] = useState("https://swapi.dev/api/starships/");
   const [debouncedSearch] = useDebounce(search, 1000);
 
-  const { data, isLoading, refetch } = useGetStarships(url);
+  const { data, isLoading } = useGetStarships(url);
   const next = data?.next;
   const previous = data?.previous;
   const count = data?.count;
