@@ -1,4 +1,4 @@
-This project was done using NextJS, ReactJS, TypeScript and ThreeJS.
+This project was done using NextJS, ReactJS, TypeScript, ThreeJS and React Query.
 Its a simple application that fetch Starships from the Star Wars API and show them in a list.
 It also has a search bar to filter the results by name.
 The mobile responsiveness was done using the CSS Grid Layout.
